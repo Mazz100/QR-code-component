@@ -30,8 +30,8 @@ screen while making it responsive and flexible as well.
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-qrcodecomponent-challenge-3nGa5fqqgI))
-- Live Site URL: [Add live site URL here](https://mazz100.github.io/QR-code-component/#)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-qrcodecomponent-challenge-3nGa5fqqgI
+- Live Site URL: https://mazz100.github.io/QR-code-component/#
 
 ## My process
 
