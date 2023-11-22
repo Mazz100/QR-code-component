@@ -1,87 +1,129 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR code component solution
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
 
-## The challenge
+## Overview
 
-Your challenge is to build out this QR code component and get it looking as close to the design as possible.
+This is my first HTML CSS challenge by Frontend Mentor. in this challenge I had to constraint and center the QR code content in the middle of 
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+screen while making it responsive and flexible as well.
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![](./My Screenshot.jpg)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
-## Building your project
+### Links
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://mazz100.github.io/QR-code-component/#)
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+## My process
 
-## Deploying your project
+* I started out by modifying my HTML and adding <div> elements and both a header <h2> and paragragh <p> for the provided text.
+* Created css stylesheet and linked it inside of HTML. 
+* Used the body element to start adding display type and fonts(size-weight-family) and the background color of website.
+* Later on I removed my container <div> and replaced it with <main> element, included the main content of webpage. Added the <footer> element for the links <a>. 
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### Built with
 
-## Create a custom `README.md`
+- Semantic HTML5 Markup
+- CSS custom properties
+- Visual Studio Code.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### What I learned
 
-## Submitting your solution
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+```HTML
+  <p>I learned a new element <main> and its very important to give a clear idea where is the main content of the page located.</p>
 
-## Sharing your solution
+  <main>
+    <img class="image-style" src="./images/image-qr-code.png" alt="image-qr-code">
 
-There are multiple places you can share your solution:
+    <h2>
+      Improve your front-end skills by building projects
+    </h2>
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+    <p>
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </main>
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+  <p>I thought that just installing google-fonts and installing it is all its to simply use it inside of CSS but I was wrong. It was simply 
+  
+  copying the font link and linking it without the need to download.</p>
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+  <!-- Linking to a google font with selected family-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
 
-## Got feedback for us?
+```
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+```CSS
+/* In this part of the body I learned how to center the content in webpage but I still didn't fully understand the concept, align-item and justify-content looked confusing to me and how they are used together but with other elements it made more sense to me and hopefully in future projects it will click for me  */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+/* I much liked this one and learned the new rem element and how important it is for scalability and flexibility it provides for users, I also used it for font size and it made more sense as to how it response to the default fonts of browsers. */
+main {
+    background-color: white;
 
-**Have fun building!** 🚀
+    padding: 12px;
+    border-radius: 20px;
+    
+    max-width: 16rem;
+    margin: auto
+}
+
+```
+
+
+### Continued development
+
+In my future projects I want to reflect on my mistakes and use best practice codes to have a good looking websites and a clean reusable code as well as useful for different purposes and serve every user needs.
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
+### Useful resources
+
+- [Importing font into HTML/CSS](https://www.w3docs.com/snippets/css/how-to-import-google-fonts-in-css-file.html#:~:text=Open%20Google%20Fonts%20and%20follow,(in%20HTML%20or%20CSS).) - This helped me for how to import a custom font, I used the HTML method and next time I may try the CSS one, otherwise its a great source.
+
+
+
+## Acknowledgments
+
+A great thanks for Discord community for taking their time to assist me with clear and detailed answers. Truly grateful! <3.
+
