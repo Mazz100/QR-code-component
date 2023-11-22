@@ -24,7 +24,7 @@ screen while making it responsive and flexible as well.
 
 ### Screenshot
 
-![](./My Screenshot.JPG)
+![](./MyScreenshot.JPG)
 
 
 

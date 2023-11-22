@@ -24,7 +24,7 @@ main {
     border-radius: 20px;
     
     max-width: 16rem;
-    margin: auto
+   
 }
 
 /* ======================= STYLING and TEXT SECTION ================== */
@@ -33,7 +33,7 @@ h2 {
     text-wrap: balance;
 }
 
-p {
+.main-para {
     color: rgba(0, 0, 0, 0.5);
 }
 
