@@ -5,10 +5,13 @@ body {
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
+
+    font-family:'Outfit', sans-serif;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
+    /* rem is relative to the root font size of browser and its useful for scalability of chnaging font size by the user */
     text-align: center;
+
     background-color: hsl(212, 45%, 89%);
 
 
@@ -16,11 +19,12 @@ body {
 
 main {
     background-color: white;
+
     padding: 12px;
     border-radius: 20px;
-    width: 250px;
-    margin: auto auto;
-
+    
+    max-width: 16rem;
+    margin: auto
 }
 
 /* ======================= STYLING and TEXT SECTION ================== */
@@ -34,7 +38,7 @@ p {
 }
 
 .image-style {
-    max-width: 95%;
-    max-height: 95%;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 8px;
 }
