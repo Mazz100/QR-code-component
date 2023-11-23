@@ -4,11 +4,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-sizing: border-box;
     min-height: 100vh;
+    gap: 1rem;
 
-    font-family:'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 0.93rem;
     /* rem is relative to the root font size of browser and its useful for scalability of chnaging font size by the user */
     text-align: center;
 
@@ -22,9 +24,9 @@ main {
 
     padding: 12px;
     border-radius: 20px;
-    
+
     max-width: 16rem;
-   
+
 }
 
 /* ======================= STYLING and TEXT SECTION ================== */
@@ -35,6 +37,7 @@ h2 {
 
 .main-para {
     color: rgba(0, 0, 0, 0.5);
+    font-size: 0.75rem;
 }
 
 .image-style {
